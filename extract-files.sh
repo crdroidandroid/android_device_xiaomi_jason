@@ -44,3 +44,5 @@ patchelf --replace-needed libminikin.so libminikin-v28.so "$DEVICE_BLOB_ROOT"/ve
 patchelf --replace-needed libminikin.so libminikin-v28.so "$DEVICE_BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
 patchelf --set-soname "libicuuc-v28.so" "$DEVICE_BLOB_ROOT"/vendor/lib/libicuuc-v28.so
 patchelf --set-soname "libminikin-v28.so" "$DEVICE_BLOB_ROOT"/vendor/lib/libminikin-v28.so
+patchelf --replace-needed android.frameworks.sensorservice@1.0.so android.frameworks.sensorservice@1.0-v28.so "$DEVICE_BLOB_ROOT"/vendor/lib/libvideorefiner.so
+
