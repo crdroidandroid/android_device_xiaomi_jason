@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "branch": "15-jason"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_xiaomi_jason",
+    "target_path": "vendor/xiaomi/jason",
+    "branch": "15.0"
+  }
+]
